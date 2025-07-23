@@ -1,0 +1,7 @@
+SQLAlchemy>=2.0
+pandas
+openpyxl
+tkinter
+pyodbc
+reportlab
+python-escpos
