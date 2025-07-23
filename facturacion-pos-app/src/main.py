@@ -14,11 +14,8 @@ def main():
     Session.configure(bind=engine)
     
     # Crear la interfaz de usuario
-    app = VentanaPrincipal(root)
-    app.pack(fill='both', expand=True)
-    
-    # Iniciar el bucle principal de la interfaz
-    root.mainloop()
+    app = VentanaPrincipal()
+    app.mainloop()  # <-- Usar mainloop en vez de pack
 
 if __name__ == "__main__":
     main()
